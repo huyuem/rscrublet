@@ -25,6 +25,7 @@
 #' @param verbose whether display processing message
 #' @return the doublet label and score for each cell
 #' @export
+
 scrubDoublets <- function(exp,
                         n_neighbors = NULL,
                         doublet_score_threshold = NULL,
