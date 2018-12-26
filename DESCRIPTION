@@ -1,0 +1,16 @@
+Package: rscrublet
+Type: Package
+Title: Remove doublets from single-cell RNA-seq data set
+Version: 0.1.0
+Author: Chengxiang Qiu
+Maintainer: Chengxiang Qiu <cxqiu@uw.edu>
+Description: Re-write the Python-based Scrublet package using R.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    RANN (>= 2.6),
+    ggplot2 (>= 3.1.0),
+    gridExtra (>= 2.3),
+    neldermead (>= 1.0.11)
+RoxygenNote: 6.1.1
